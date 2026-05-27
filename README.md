@@ -11,3 +11,14 @@ The smart electricity meter provides detailed information about electricity usag
 This project is highly beneficial for middle-class and low-income families because it helps them manage electricity expenses more effectively. Instead of waiting for the monthly electricity bill, users can continuously monitor their consumption and control energy usage to reduce costs. The system also promotes energy conservation, smart energy management, and efficient utilization of electrical resources.
 
 The IoT-Based Smart Electricity Meter is a low-cost, reliable, and user-friendly solution that combines IoT technology with real-time monitoring to create a smarter and more energy-efficient environment for modern living.
+## Components Required
+
+| Component | Image |
+|-----------|-------|
+| Current Sensor | ![Current Sensor](images/current_sensor.webp) |
+| Voltage Sensor | ![Voltage Sensor](images/voltage_sensor.webp) |
+| Bulb | ![Bulb](images/bulb.jpg) |
+| Main AC 250V | ![AC Supply](images/ac_supply.jpg) |
+| Breadboard | ![Breadboard](images/bread_board.jpg) |
+| Arduino | ![Arduino](images/arduino uno.webp) |
+| Micro ESP32 | ![ESP32](images/esp32.png) |
