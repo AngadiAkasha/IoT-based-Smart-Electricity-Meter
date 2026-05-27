@@ -24,7 +24,7 @@ The IoT-Based Smart Electricity Meter is a low-cost, reliable, and user-friendly
 # Circuit Diagram
 
 <p align="center">
-  <img src="images/circuit_diagram.jpg" width="700">
+  <img src="images/circuit_diagram.jpeg" width="700">
 </p>
 
 ---
