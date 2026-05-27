@@ -15,10 +15,8 @@ The IoT-Based Smart Electricity Meter is a low-cost, reliable, and user-friendly
 
 | Component | Image |
 |-----------|-------|
-| Current Sensor | ![Current Sensor](images/current_sensor.webp) |
-| Voltage Sensor | ![Voltage Sensor](images/voltage_sensor.webp) |
-| Bulb | ![Bulb](images/bulb.jpg) |
-| Main AC 250V | ![AC Supply](images/ac_supply.jpg) |
-| Breadboard | ![Breadboard](images/bread_board.webp) |
-| Arduino | ![Arduino](images/arduino.webp) |
-| Micro ESP32 | ![ESP32](images/esp32.png) |
+| Current Sensor | <img src="images/current_sensor.webp" width="120"> |
+| Voltage Sensor | <img src="images/voltage_sensor.webp" width="120"> |
+| Breadboard | <img src="images/bread_board.webp" width="120"> |
+| Arduino | <img src="images/arduino.webp" width="120"> |
+| Micro ESP32 | <img src="images/esp32.png" width="120"> |
