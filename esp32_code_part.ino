@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3-jIlndL6"
-#define BLYNK_TEMPLATE_NAME "Smart IoT Energy Meter"
-#define BLYNK_AUTH_TOKEN "wJiDjGjGtRU1f0zdiUsmniJ_l9UbLvzY"
+#define BLYNK_TEMPLATE_ID "enter your blynk_template_id "
+#define BLYNK_TEMPLATE_NAME "enter your blynk_template_name"
+#define BLYNK_AUTH_TOKEN "enter your blynk_template_auth_token"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -13,11 +13,11 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // WiFi
-char ssid[] = "Enjoy";
-char pass[] = "Akash200";
+char ssid[] = "enter the wifi name";
+char pass[] = "enter the wifi password";
 // Telegram
-const char* botToken = "8522252194:AAGWBCAbgF-RNA-xP8SOjq1iJKhL3Q5gMO8";
-const char* chatID   = "7315998097";
+const char* botToken = "enter the bottoken api ";
+const char* chatID   = "enter the chatid";
 
 // Variables
 float voltage = 0;
