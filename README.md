@@ -20,3 +20,179 @@ The IoT-Based Smart Electricity Meter is a low-cost, reliable, and user-friendly
 | Breadboard | <img src="images/bread_board.webp" width="120"> |
 | Arduino | <img src="images/arduino.webp" width="120"> |
 | Micro ESP32 | <img src="images/esp32.png" width="120"> |
+
+# Circuit Diagram
+
+<p align="center">
+  <img src="images/circuit_diagram.jpg" width="700">
+</p>
+
+---
+
+# Working Principle
+
+The system works by continuously measuring voltage and current using dedicated sensors. The Arduino UNO reads sensor values and calculates power consumption. The ESP32 module sends the collected data to the cloud using Wi-Fi technology. Users can monitor electricity usage through an IoT dashboard or mobile application.
+
+---
+
+# System Architecture
+
+```text
+AC Supply
+    ↓
+Voltage Sensor + Current Sensor
+    ↓
+Arduino UNO
+    ↓
+LCD Display
+    ↓
+ESP32 Wi-Fi Module
+    ↓
+Cloud Server / Mobile App
+```
+
+---
+
+# Pin Connections
+
+## LCD to Arduino
+
+| LCD Pin | Arduino UNO |
+|----------|-------------|
+| VCC | 5V |
+| GND | GND |
+| SDA | A4 |
+| SCL | A5 |
+
+---
+
+## Voltage Sensor to Arduino
+
+| Voltage Sensor | Arduino UNO |
+|----------------|-------------|
+| VCC | 5V |
+| GND | GND |
+| OUT | A0 |
+
+---
+
+## Current Sensor to Arduino
+
+| Current Sensor | Arduino UNO |
+|----------------|-------------|
+| VCC | 5V |
+| GND | GND |
+| OUT | A1 |
+
+---
+
+## ESP32 to Arduino
+
+| ESP32 | Arduino UNO |
+|--------|-------------|
+| TX | RX |
+| RX | TX |
+| GND | GND |
+
+---
+
+# Formula Used
+
+## Power Formula
+
+```math
+P = V \times I
+```
+
+Where:
+- P = Power (Watts)
+- V = Voltage (Volts)
+- I = Current (Amps)
+
+---
+
+## Energy Formula
+
+```math
+E = P \times t
+```
+
+Where:
+- E = Energy Consumed
+- P = Power
+- t = Time
+
+---
+
+# Software Requirements
+
+- Arduino IDE
+- ESP32 Board Package
+- LiquidCrystal_I2C Library
+- WiFi Library
+
+---
+
+# Installation Steps
+
+1. Install Arduino IDE.
+2. Install ESP32 board package.
+3. Connect all components as shown in the circuit diagram.
+4. Upload Arduino code to Arduino UNO.
+5. Configure Wi-Fi credentials in ESP32 code.
+6. Upload ESP32 code.
+7. Open Serial Monitor to verify readings.
+8. Monitor data through IoT dashboard or mobile application.
+
+---
+
+# Applications
+
+- Smart homes
+- Electricity monitoring systems
+- Energy management
+- Industrial power monitoring
+- Smart cities
+- IoT-based automation projects
+
+---
+
+# Advantages
+
+- Real-time electricity monitoring
+- Reduces electricity wastage
+- Helps estimate electricity bills
+- Remote monitoring through IoT
+- Low-cost and efficient system
+- Easy to use and maintain
+
+---
+
+# Future Enhancements
+
+- Mobile application integration
+- Automatic bill generation
+- Relay-based appliance control
+- SMS/email alerts
+- Cloud data analytics
+- AI-based power prediction
+
+---
+
+# Safety Note
+
+⚠️ Warning:
+
+This project works with 220V AC mains supply. Handle electrical connections carefully and use proper insulation to avoid electric shock.
+
+---
+
+# Output
+
+```text
+Voltage : 230V
+Current : 0.45A
+Power   : 103W
+```
+
+---
